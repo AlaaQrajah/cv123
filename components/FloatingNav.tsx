@@ -40,7 +40,7 @@ export const FloatingNav = ({
 
   return (
     <AnimatePresence mode="wait">
-      <div className="fixed z-[5000] top-10 left-1/2 -translate-x-1/2 w-fit max-w-[90vw]">
+      <div className="fixed z-[5000] top-11 left-1/2 -translate-x-1/2 w-fit max-w-[90vw]">
         <motion.div
           initial={{
             opacity: 1,
