@@ -12,6 +12,9 @@
     "html": "\\bclass\\s*=\\s*[\\\"\\'](https://github.com/heybourn/headwind/blob/master/[_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\']",
     "javascriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\'](https://github.com/heybourn/headwind/blob/master/[_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)"
   },
+  "resolutions": {
+    "@next/swc-win32-x64-msvc": "npm:@next/swc-linux-x64-gnu"
+  },
   "dependencies": {
     "@react-three/drei": "^9.121.4",
     "@react-three/fiber": "^8.15.0",
